@@ -1,9 +1,0 @@
-body, html, #root, #App{
-  height: 100%;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    transition: 1000ms;
-    background-color: #85F0E6;
-}
