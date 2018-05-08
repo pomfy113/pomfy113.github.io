@@ -42,10 +42,10 @@
 }
 
 .project button{
-    background-color: #FFFB;
+    background-color: #FFFA;
     color: #333;
     border-radius: 15px;
-    border: none;
+    border: 1px solid #EEE;
     margin: 0px 5px;
     box-sizing: border-box;
     font-size: 10px;
@@ -55,5 +55,5 @@
 
 .project button:hover{
     cursor: pointer;
-    background-color: #DDDF;
+    background-color: #FFFF;
 }

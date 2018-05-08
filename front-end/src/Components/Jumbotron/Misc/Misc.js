@@ -6,15 +6,15 @@ export class About extends Component {
       return(
           <div className={`tab about misc ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>About</h1>
-              <p>Hello, my name is Ferdinand Cruz! I'm a full-stack web developer,
+              <p>Hello, my name is Ferdinand Cruz! I'm a <strong>full-stack web developer, </strong>
                   and my strengths lie in front-end web development and scripting.
                   I'm motivated by making hobbies more convenient for others!
               </p>
               <h2>Background</h2>
-              <p>I graduated from UC Davis with a B.A. in Psychology. After graduation,
-                  I pursued the Full-Stack Web Development program at Make School, a Y.C.
-                  backed college alternative for those who wish to enter the software
-                  engineering field by shipping live products alongside traditional
+              <p>I graduated from <strong>UC Davis with a B.A. in Psychology</strong>.
+                After graduation, I pursued the <strong>Full-Stack Web Development program at
+                Make School</strong>, a Y.C. backed college alternative for those who wish to
+                enter the software engineering field by shipping live products alongside traditional
                   lectures.</p>
               <h2>What am I looking for?</h2>
               <p>I hope to work somewhere with challenging problems, a fun
@@ -22,9 +22,17 @@ export class About extends Component {
                   learning rather quickly and wearing many hats!
               </p>
               <h2>Hobbies</h2>
-              <p>Video Games (MMORPGs, strategy RPGs, fighting),
-                  Tabletop Roleplaying Games, Writing, Anime, Martial Arts
+              <p>Video Games (MMORPGs, Strategy RPGs, Fighting), Tabletop Roleplaying
+                  Games, Writing, Anime, Light Novels, Martial Arts
               </p>
+              <h2>Achievements</h2>
+              <ul>
+                  <li>Reached level 4.5 of Google Foobar (ongoing!)</li>
+                  <li>Tutored various students in code challenges, debugging,
+                      data structures, optimization, and web development.
+                  </li>
+                  <li>Entered UC Davis Dean's Honor Roll multiple times</li>
+              </ul>
           </div>
       )
   }

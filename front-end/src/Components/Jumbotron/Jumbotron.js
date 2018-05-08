@@ -72,6 +72,7 @@ export default class Jumbotron extends Component {
     let projects = []
     for(let i = 0; i < 3; i++){
         projects.push(<Project
+                key={`project-${i}`}
                 active={i === this.state.active}
                 index={i}
                 rotLeft={() => this.rightRotate()}

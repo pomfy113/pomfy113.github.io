@@ -14,13 +14,13 @@ export default class Contact extends Component {
               </div>
               <div id='contact-links'>
                 <a href='https://github.com/pomfy113' target='_about'>
-                    <img src='contact/github.png'/>
+                    <img alt='Github link' src='contact/github.png'/>
                 </a>
                 <a href='https://www.linkedin.com/in/ferdinand-cruz113/' target='_about'>
-                    <img src='contact/linkedin.png'/>
+                    <img alt='LinkedIn link' src='contact/linkedin.png'/>
                 </a>
                 <a href='mailto:cruz.ferdin@gmail.com'>
-                    <img src='contact/mail.png'/>
+                    <img alt='Email link' src='contact/mail.png'/>
                 </a>
               </div>
           </div>
