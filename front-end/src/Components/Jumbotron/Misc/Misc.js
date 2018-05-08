@@ -4,22 +4,25 @@ import './Misc.css'
 export class About extends Component {
   render() {
       return(
-          <div className={`tab about ${this.props.active ? 'active' : 'inactive'}`}>
+          <div className={`tab about misc ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>About</h1>
               <p>Hello, my name is Ferdinand Cruz! I'm a full-stack web developer,
                   and my strengths lie in front-end web development and scripting.
                   I'm motivated by making hobbies more convenient for others!
               </p>
+              <h2>Background</h2>
               <p>I graduated from UC Davis with a B.A. in Psychology. After graduation,
                   I pursued the Full-Stack Web Development program at Make School, a Y.C.
                   backed college alternative for those who wish to enter the software
                   engineering field by shipping live products alongside traditional
                   lectures.</p>
+              <h2>What am I looking for?</h2>
               <p>I hope to work somewhere with challenging problems, a fun
                   atmosphere, and a product that many can use. I'm capable of
                   learning rather quickly and wearing many hats!
               </p>
-              <p><u>Hobbies</u>: Video Games (MMORPGs, strategy RPGs, fighting),
+              <h2>Hobbies</h2>
+              <p>Video Games (MMORPGs, strategy RPGs, fighting),
                   Tabletop Roleplaying Games, Writing, Anime, Martial Arts
               </p>
           </div>
@@ -31,7 +34,7 @@ export class About extends Component {
 export class Tools extends Component {
   render() {
       return(
-          <div className={`tab tools ${this.props.active ? 'active' : 'inactive'}`}>
+          <div className={`tab tools misc ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>Tools</h1>
               <table>
                   <tbody>
