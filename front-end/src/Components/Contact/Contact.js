@@ -13,6 +13,9 @@ export default class Contact extends Component {
                   <p>(925) 395-6845</p>
               </div>
               <div id='contact-links'>
+                  <a href='https://docs.google.com/document/d/1CmSRwqh-HU8w0ljzksn-bWZyKv1A86lniZjCAjOhj-w/edit?usp=sharing' target='_about'>
+                      <img alt='Resume link' src='contact/resume.png'/>
+                  </a>
                 <a href='https://github.com/pomfy113' target='_about'>
                     <img alt='Github link' src='contact/github.png'/>
                 </a>
