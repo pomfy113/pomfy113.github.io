@@ -52,12 +52,11 @@ export class Tools extends Component {
                   </tr>
                   <tr>
                       <td>Specialties</td>
-                      <td>Python, React, CSS3, debugging</td>
+                      <td>Python, React, CSS3, Node & Express, debugging</td>
                   </tr>
                   <tr>
                       <td>Web Tech</td>
-                      <td>Node.js, Express, REST, MVC/MVVC, UX Design & Testing,
-                      Authentication (JWT, Bcrypt), Flask, AJAX</td>
+                      <td>Node.js, Express, Flask, REST, MVC/MVVC</td>
                   </tr>
                   <tr>
                       <td>Languages</td>
@@ -78,8 +77,7 @@ export class Tools extends Component {
                   </tr>
                   <tr>
                       <td>Comp Sci & Misc</td>
-                      <td>Object Oriented Programming, Data Structures, 3D Modeling & Animation,
-                          Assembly Language</td>
+                      <td>Object Oriented Programming, Data Structures, 3D Modeling & Animation, UX Design & Testing</td>
                   </tr>
                   </tbody>
               </table>

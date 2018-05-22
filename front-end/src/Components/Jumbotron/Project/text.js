@@ -6,14 +6,14 @@ const data = [
         repo: 'https://github.com/pomfy113/Anime-Ratings',
         tools: `v1 - Basic Site - Node.js & Express, Handlebars, MongoDB, Bootstrap
         v2 - Single-Page - Node.js & Express, Handlebars, jQuery, CSS
-        v3 - React & UX Testing - Node.js & Express, React, Redux (WIP), CSS`
+        v3 - React & UX Testing - Node.js & Express, React, Redux, CSS`
     },
     {
         title: 'Sandpiper',
         subtitle: 'Playlist Migration Application',
         liveSite: 'http://www.sandpiper.ninja/',
         repo: 'https://github.com/sgalizia/SandPiper',
-        tools: `Front-End - React, Redux, Node & Express, CSS`
+        tools: `React, Redux, Node & Express, CSS, Mongo, Travis CLI`
 
     },
     {

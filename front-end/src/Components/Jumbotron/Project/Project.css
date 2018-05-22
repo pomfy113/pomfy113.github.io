@@ -41,19 +41,20 @@
     margin: 5px 0px;
 }
 
-.project button{
-    background-color: #FFFA;
+.url-links a{
+    background-color: #FFF;
     color: #333;
     border-radius: 15px;
     border: 1px solid #EEE;
     margin: 0px 5px;
     box-sizing: border-box;
     font-size: 10px;
-    line-height: 15px;
     padding: 5px 10px;
+
+    text-decoration: none;
+    color: #111;
 }
 
-.project button:hover{
-    cursor: pointer;
-    background-color: #FFFF;
+.url-links a:hover{
+    background-color: #DDD;
 }

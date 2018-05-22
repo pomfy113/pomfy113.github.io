@@ -39,7 +39,7 @@
     transition: 500ms;
     background-color: #954B;
     color: white;
-    opacity: 0.70;
+    opacity: 0.90;
 }
 
 .tab:hover{
@@ -72,7 +72,7 @@
 
 .tab:nth-child(5) {
     transform: rotateY(calc(var(--rotate) - 72deg)) translateZ(var(--width));
-    background-color: #DF3B32BB;
+    background-color: #BB3B32BB;
     z-index: var(--z-1);
 }
 
@@ -92,14 +92,13 @@
 }
 
 .rotate:hover{
-    border-color: white;
     cursor: pointer;
-    filter: brightness(1.1);
+    filter: brightness(1.2);
     opacity: 1.0;
 }
 
 .rotate:focus{
-    outline-color: white;
+    outline: none;
 }
 
     .left-rot {
