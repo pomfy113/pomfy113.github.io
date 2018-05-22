@@ -22,12 +22,12 @@ export default class Project extends Component {
           <div className={`tab project ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>{title}</h1>
               <h2>{subtitle}</h2>
-              <a href={site}>
+              <a href={this.props.active ? site : null}>
               <img alt='Project screenshot' src={`projects/project-${this.props.index}/image.png`}/>
               </a>
               <div className='url-links'>
-                  <a href={site} target='_about'>Site</a>
-                  <a href={repo} target='_about'>Repo</a>
+                  <a href={this.props.active ? site : null} target='_about'>Site</a>
+                  <a href={this.props.active ? repo : null} target='_about'>Repo</a>
               </div>
 
               <p>Tools:<br/>{tools}</p>
