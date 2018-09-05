@@ -31,12 +31,12 @@ const data = [
       subtitle: 'Anime Polling Site',
       liveSite: 'https://anitrendz.net/',
       repo: null,
-      role: 'Database Python Scripts; Full Stack',
-      tools: `Python for back-end scripting
-      React, SCSS, Node, Postgres for site rework (private repo)`
+      role: 'Database Scripting; Full Stack Developer',
+      tools: `Python for database scripting (live)
+      React, SCSS, Node, Postgres for site rework (private repo, ongoing)`
     },
     {
-      title: '"Rambutan"',
+      title: '"Project - Rambutan"',
       subtitle: 'Coaching Management Software',
       liveSite: null,
       repo: null,

@@ -1,12 +1,6 @@
 #Jumbotron {
     --width: 450px;
     --rotate: 0deg;
-    /* For z-indexing */
-    --z-0: 0;
-    --z-1: 1;
-    --z-2: 2;
-    --z-3: 1;
-    --z-4: 0;
 
     display: flex;
     flex-direction: column;
@@ -45,36 +39,6 @@
 .tab:hover{
     opacity: 1.0;
 }
-
-/* .tab:nth-child(1) {
-    transform: rotateY(calc(var(--rotate))) translateZ(var(--width)) ;
-    background-color: #45B0F6CC;
-    z-index: var(--z-2);
-}
-
-.tab:nth-child(2) {
-    transform: rotateY(calc(var(--rotate) + 72deg)) translateZ(var(--width)) ;
-    background-color: #CFBF0ACC;
-    z-index: var(--z-3);
-}
-
-.tab:nth-child(3) {
-    transform: rotateY(calc(var(--rotate) + 144deg)) translateZ(var(--width)) ;
-    background-color: #A019AFCC;
-    z-index: var(--z-4);
-}
-
-.tab:nth-child(4) {
-    transform: rotateY(calc(var(--rotate) - 144deg)) translateZ(var(--width)) ;
-    background-color: #507D4FCC;
-    z-index: var(--z-0);
-}
-
-.tab:nth-child(5) {
-    transform: rotateY(calc(var(--rotate) - 72deg)) translateZ(var(--width));
-    background-color: #BB3B32BB;
-    z-index: var(--z-1);
-} */
 
 .rotate {
     position: absolute;

@@ -52,7 +52,7 @@ export class Tools extends Component {
                   </tr>
                   <tr>
                       <td>Specialties</td>
-                      <td>Python, React, CSS3, Node & Express, debugging</td>
+                      <td>Python, React, CSS3, Node & Express, Javascript</td>
                   </tr>
                   <tr>
                       <td>Web Tech</td>
@@ -60,20 +60,19 @@ export class Tools extends Component {
                   </tr>
                   <tr>
                       <td>Languages</td>
-                      <td>Javascript (JSX, ES6), CSS3, Python, HTML, Sass, C, C++, R</td>
+                      <td>Python, Javascript (JSX, ES6), CSS3, HTML</td>
                   </tr>
                   <tr>
                       <td>Databases</td>
-                      <td>MongoDB, SQL (Postgres + Sequelize), GraphQL (basic)</td>
+                      <td>MongoDB, Postgres, GraphQL</td>
                   </tr>
                   <tr>
                       <td>Libraries</td>
-                      <td>React, Redux, React Native, jQuery, Bootstrap</td>
+                      <td>React, Redux, jQuery, Jest, Sass/SCSS, Angular, Bootstrap, Mocha/Chai, React Native</td>
                   </tr>
                   <tr>
                       <td>Tools</td>
-                      <td>Git, Github, bash, GIMP, Maya, Heroku, Trello, Slack,
-                          iMovie, AWS</td>
+                      <td>Git, Github, Bitbucket, Unix, GIMP/Photoshop, Maya, Heroku, Trello, Slack, iMovie, AWS</td>
                   </tr>
                   <tr>
                       <td>Comp Sci & Misc</td>
