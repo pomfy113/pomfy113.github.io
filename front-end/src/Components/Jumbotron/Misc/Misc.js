@@ -4,7 +4,7 @@ import './Misc.css'
 export class About extends Component {
   render() {
       return(
-          <div className={`tab about misc ${this.props.active ? 'active' : 'inactive'}`}>
+          <div style={this.props.style} className={`tab about misc ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>About</h1>
               <p>Hello, my name is Ferdinand Cruz! I'm a <strong>full-stack web developer, </strong>
                   and my strengths lie in front-end web development and scripting.
@@ -42,7 +42,7 @@ export class About extends Component {
 export class Tools extends Component {
   render() {
       return(
-          <div className={`tab tools misc ${this.props.active ? 'active' : 'inactive'}`}>
+          <div style={this.props.style} className={`tab tools misc ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>Tools</h1>
               <table>
                   <tbody>

@@ -17,9 +17,9 @@ export default class Project extends Component {
           site = this.projectData.liveSite;
           repo = this.projectData.repo;
       }
-
+      console.log(this.props.style)
       return(
-          <div className={`tab project ${this.props.active ? 'active' : 'inactive'}`}>
+          <div style={this.props.style} className={`tab project ${this.props.active ? 'active' : 'inactive'}`}>
               <h1>{title}</h1>
               <h2>{subtitle}</h2>
               <a href={this.props.active ? site : null} target='_about'>

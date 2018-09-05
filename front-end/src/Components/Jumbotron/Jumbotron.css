@@ -46,7 +46,7 @@
     opacity: 1.0;
 }
 
-.tab:nth-child(1) {
+/* .tab:nth-child(1) {
     transform: rotateY(calc(var(--rotate))) translateZ(var(--width)) ;
     background-color: #45B0F6CC;
     z-index: var(--z-2);
@@ -74,7 +74,7 @@
     transform: rotateY(calc(var(--rotate) - 72deg)) translateZ(var(--width));
     background-color: #BB3B32BB;
     z-index: var(--z-1);
-}
+} */
 
 .rotate {
     position: absolute;
