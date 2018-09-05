@@ -27,8 +27,14 @@ export default class Project extends Component {
               <p>{role}</p>
               <p>Tools:<br/>{tools}</p>
               <div className='url-links'>
-                  <a href={this.props.active ? site : null} target='_about'>Site</a>
-                  <a href={this.props.active ? repo : null} target='_about'>Repo</a>
+                  {site
+                    ? <a href={this.props.active ? site : null} target='_about'>Site</a>
+                    : null
+                  }
+                  {repo
+                    ? <a href={this.props.active ? repo : null} target='_about'>Repo</a>
+                    : null
+                  }
               </div>
           </div>
       )
