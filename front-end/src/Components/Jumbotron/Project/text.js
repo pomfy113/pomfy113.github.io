@@ -29,7 +29,7 @@ const data = [
     {
       title: 'Anime Trending (Site Rework, WIP)',
       subtitle: 'Anime Polling Site',
-      liveSite: 'https://anitrendz.net/',
+      liveSite: 'https://at-rework-dev.herokuapp.com/',
       repo: null,
       role: 'Database Scripting; Full Stack Developer',
       tools: `Python for database scripting (live)
