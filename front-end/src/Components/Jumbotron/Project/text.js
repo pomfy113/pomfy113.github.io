@@ -27,18 +27,18 @@ const data = [
       Native Javascript and CSS, Node & Express`
     },
     {
-      title: 'Anime Trending',
+      title: 'Anime Trending (Site Rework, WIP)',
       subtitle: 'Anime Polling Site',
       liveSite: 'https://anitrendz.net/',
       repo: null,
       role: 'Database Scripting; Full Stack Developer',
       tools: `Python for database scripting (live)
-      React, SCSS, Node, Postgres for site rework (private repo, ongoing)`
+      React, SCSS, Node, Postgres for site rework (site rework, ongoing)`
     },
     {
       title: '"Project - Rambutan"',
       subtitle: 'Coaching Management Software',
-      liveSite: null,
+      liveSite: 'https://coaching-146121.appspot.com/',
       repo: null,
       role: 'Frontend Developer - Contract',
       tools: 'Angular, SCSS, Typescript (JS)'
