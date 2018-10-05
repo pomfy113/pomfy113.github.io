@@ -41,7 +41,7 @@ const data = [
       liveSite: 'https://coaching-146121.appspot.com/',
       repo: null,
       role: 'Frontend Developer - Contract',
-      tools: 'Angular, SCSS, Typescript (JS)'
+      tools: 'Angular, SCSS, Typescript (JS), Postgres, Jade'
     }
 ]
 
