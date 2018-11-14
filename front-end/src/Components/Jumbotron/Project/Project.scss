@@ -1,0 +1,72 @@
+.project{
+
+  &.inactive{
+    opacity: 0.5;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .project-image{
+    align-self: center;
+
+    img{
+      width: 30vw;
+    }
+  }
+
+  .project-title, .project-subtitle{
+      text-shadow: 0px 0px 1px black;
+      margin: 2.5px;
+      text-align: center;
+  }
+
+  .project-title{
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .project-subtitle{
+      font-size: 15px;
+      font-weight: 300;
+  }
+
+  p{
+    white-space: pre-line;
+    font-size: 10px;
+    text-shadow: 0px 0px 1px #333B;
+    margin: 2.5px;
+  }
+
+  .project-role{
+    font-weight: 800;
+    font-size: 10px;
+  }
+
+  .project-tools{
+    font-weight: normal;
+  }
+
+  .project-links{
+      text-align: right;
+      margin: 5px 0px;
+
+      a{
+          background-color: #FFF;
+          color: #333;
+          border-radius: 15px;
+          margin: 0px 5px;
+          box-sizing: border-box;
+          font-size: 10px;
+          padding: 5px 10px;
+
+          text-decoration: none;
+          color: #111;
+
+          &:hover{
+            background-color: #DDD;
+          }
+      }
+  }
+}

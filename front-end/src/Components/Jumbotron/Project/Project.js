@@ -9,6 +9,7 @@ export default class Project extends Component {
   }
   render() {
       let title, subtitle, tools, site, repo, role;
+
       if(this.projectData){
           title = this.projectData.title;
           subtitle = this.projectData.subtitle;
@@ -20,14 +21,19 @@ export default class Project extends Component {
 
       return(
           <div style={this.props.style} className={`tab project ${this.props.active ? 'active' : 'inactive'}`}>
-              <h1>{title}</h1>
-              <h2>{subtitle}</h2>
-              <a href={this.props.active ? site : null} target='_about'>
+              <h1 className="project-title">{title}</h1>
+              <h2 className="project-subtitle">{subtitle}</h2>
+
+
+              <a className="project-image" ref={this.props.active ? site : null} target='_about'>
                 <img alt='Project screenshot' src={`projects/project-${this.props.index}/image.png`}/>
               </a>
-              <p>{role}</p>
-              <p>Tools:<br/>{tools}</p>
-              <div className='url-links'>
+
+              <p className="project-role">Role - {role}</p>
+
+              <p className="project-tools">Tools:<br/>{tools}</p>
+
+              <div className='project-links'>
                   {site
                     ? <a href={this.props.active ? site : null} target='_about'>Site</a>
                     : null
