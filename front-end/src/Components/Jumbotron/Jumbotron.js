@@ -18,7 +18,7 @@ export default class Jumbotron extends Component {
       this.ref = React.createRef();
       // this.ref.current.style.setProperty('--total', this.total)
 
-      this.colors = ['#3550A6', '#AF9F2A', '#CFAB74', '#DA882F', '#CC8B82', '#AFAF5A', '#50AACF'];
+      this.colors = ['#3550A6', '#DA882F', '#CC8B82', '#AF9F2A', '#CFAB74', '#AFAF5A', '#7A8B8B'];
   }
 
   leftRotate(){
@@ -75,7 +75,7 @@ export default class Jumbotron extends Component {
 
   setStyle(index){
     return {
-        transform: `rotateY(${this.state.rotate + (360/this.total) * index}deg) translateZ(500px)`,
+        transform: `rotateY(${this.state.rotate + (360/this.total) * index}deg) translateZ(40vw)`,
         backgroundColor: this.colors[index],
         zIndex: this.state.index[index]
     }

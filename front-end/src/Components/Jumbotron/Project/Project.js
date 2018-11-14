@@ -4,42 +4,31 @@ import './Project.css'
 export default class Project extends Component {
   constructor(props){
       super(props);
-      this.projectData = data[this.props.index]
+      this.project = data[this.props.index]
 
   }
   render() {
-      let title, subtitle, tools, site, repo, role;
-
-      if(this.projectData){
-          title = this.projectData.title;
-          subtitle = this.projectData.subtitle;
-          tools = this.projectData.tools;
-          role = this.projectData.role;
-          site = this.projectData.liveSite;
-          repo = this.projectData.repo;
-      }
-
       return(
           <div style={this.props.style} className={`tab project ${this.props.active ? 'active' : 'inactive'}`}>
-              <h1 className="project-title">{title}</h1>
-              <h2 className="project-subtitle">{subtitle}</h2>
+              <h1 className="project-title">{this.project.title}</h1>
+              <h2 className="project-subtitle">{this.project.subtitle}</h2>
 
 
-              <a className="project-image" ref={this.props.active ? site : null} target='_about'>
-                <img alt='Project screenshot' src={`projects/project-${this.props.index}/image.png`}/>
+              <a className="project-image" href={this.props.active ? this.project.liveSite : null} target='_about'>
+                <img alt='Project screenshot' src={this.project.img}/>
               </a>
 
-              <p className="project-role">Role - {role}</p>
+              <p className="project-role">Role - {this.project.role}</p>
 
-              <p className="project-tools">Tools:<br/>{tools}</p>
+              <p className="project-tools"><b>Tools:</b><br/>{this.project.tools}</p>
 
               <div className='project-links'>
-                  {site
-                    ? <a href={this.props.active ? site : null} target='_about'>Site</a>
+                  {this.project.liveSite
+                    ? <a href={this.props.active ? this.project.liveSite : null} target='_about'>Site</a>
                     : null
                   }
-                  {repo
-                    ? <a href={this.props.active ? repo : null} target='_about'>Repo</a>
+                  {this.project.repo
+                    ? <a href={this.props.active ? this.project.repo : null} target='_about'>Repo</a>
                     : null
                   }
               </div>
