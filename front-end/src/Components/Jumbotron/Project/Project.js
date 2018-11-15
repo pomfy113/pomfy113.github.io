@@ -17,8 +17,10 @@ export default class Project extends Component {
               <a className="project-image" href={this.props.active ? this.project.liveSite : null} target='_about'>
                 <img alt='Project screenshot' src={this.project.img}/>
               </a>
-
               <p className="project-role">Role - {this.project.role}</p>
+              <p className="project-description">{this.project.description}</p>
+
+
 
               <p className="project-tools"><b>Tools:</b><br/>{this.project.tools}</p>
 
