@@ -1,19 +1,17 @@
-.misc h1, .misc h2 {
+.misc h1, .misc h2, .misc h3 {
   font-family: "Open Sans", sans-serif;
   text-shadow: 0px 0px 1px black;
 }
 .misc h1 {
   margin: 0 0 1.3vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.25vw;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .about {
   white-space: pre-line;
-}
-.about h1 {
-  font-size: 1.3vw;
-  letter-spacing: 0.25vw;
-  font-weight: 200;
-  text-transform: uppercase;
 }
 .about h2 {
   font-size: 1vw;
@@ -36,7 +34,7 @@
 }
 .tools td, .tools th {
   text-shadow: 0px 0px 1px #333B;
-  font-size: 12px;
+  font-size: 1vw;
   padding: 5px;
   border: 1px solid lightgrey;
 }
@@ -44,11 +42,40 @@
   padding: 10px 5px;
 }
 .tools td:nth-child(2) {
-  font-size: 10px;
+  font-size: 0.8vw;
 }
 .tools th {
   font-weight: 900;
   letter-spacing: 1px;
+}
+
+.experience .experience-position {
+  margin-bottom: 1vw;
+  text-shadow: 0px 0px 1px black;
+}
+.experience .experience-position p {
+  font-size: 0.7vw;
+  margin: 0;
+}
+.experience .experience-position .position-header {
+  display: flex;
+  justify-content: space-between;
+}
+.experience .experience-position .position-date {
+  font-weight: 300;
+}
+.experience .experience-position .position-company {
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+.experience .experience-position .position-role {
+  font-weight: 600;
+}
+.experience .experience-position .position-tech {
+  margin-bottom: 0.35vw;
+}
+.experience .experience-position .position-description {
+  margin-left: 0.35vw;
 }
 
 /*# sourceMappingURL=Misc.css.map */

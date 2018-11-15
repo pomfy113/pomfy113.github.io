@@ -1,5 +1,5 @@
 #Jumbotron {
-    --width: 35vw;
+    --width: 30vw;
     --rotate: 0deg;
 
     display: flex;
@@ -33,7 +33,6 @@
 
     box-shadow: 2px 2px 10px black;
     transition: 500ms;
-    background-color: #954B;
     color: white;
     opacity: 0.90;
 }

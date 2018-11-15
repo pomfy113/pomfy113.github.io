@@ -56,7 +56,6 @@ const data = [
       had a fun time with it. While it worked, upkeep has taken its toll, and the inability to have
       easy access to Apple Music had us scrapping the project.
       `
-
     },
     {
       title: '3d20',
@@ -72,7 +71,6 @@ const data = [
       into doing something like this again when I get the chance, it was fairly interesting.
       I wanted users to be able to upload tokens, have walls, line-of-sight etc, but I moved on
       to other projects.`
-
     },
 ]
 

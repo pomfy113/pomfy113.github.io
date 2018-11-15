@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Misc.css'
+import data from './text.js'
 
-export function About(props){
+function About(props){
   return(
       <div style={props.style} className={`tab about misc ${props.active ? 'active' : 'inactive'}`}>
           <h1>About</h1>
@@ -36,7 +37,7 @@ export function About(props){
   )
 }
 
-export function Tools(props){
+function Tools(props){
   return(
       <div style={props.style} className={`tab tools misc ${props.active ? 'active' : 'inactive'}`}>
           <h1>Tools</h1>
@@ -79,3 +80,33 @@ export function Tools(props){
       </div>
   )
 }
+
+
+function Experience(props){
+  const positions = data.map((job, index) => {
+    return <Position key={`position-${index}`} data={job}/>
+  })
+  return(
+      <div style={props.style} className={`tab experience misc ${props.active ? 'active' : 'inactive'}`}>
+          <h1>Experience</h1>
+          {positions}
+      </div>
+  )
+}
+
+function Position(props){
+  return(
+    <div className="experience-position">
+      <div className="position-header">
+        <p className="position-company">{props.data.company}</p>
+        <p className="position-date">{props.data.dates}</p>
+      </div>
+      <p className="position-role">{props.data.position}</p>
+      <p className="position-tech"><b>Tech</b> - {props.data.tech}</p>
+      <p className="position-description">{props.data.description}</p>
+    </div>
+  )
+}
+
+
+export { About, Tools, Experience }

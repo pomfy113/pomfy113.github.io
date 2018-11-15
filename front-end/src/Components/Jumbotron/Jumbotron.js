@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Jumbotron.css';
 
 import Project from './Project'
-import { About, Tools } from './Misc'
+import { Experience, About, Tools } from './Misc'
 
 export default class Jumbotron extends Component {
 
@@ -10,15 +10,15 @@ export default class Jumbotron extends Component {
       super(props);
       this.state = {
           rotate: 0,
-          index: [3, 2, 1, 0, 0, 1, 2],
+          index: [3, 2, 1, 0, 0, 1, 2, 3],
           active: 0
       }
       this.projectNum = 5 // Change as needed
-      this.total = this.projectNum + 2;
+      this.total = this.projectNum + 3;
       this.ref = React.createRef();
       // this.ref.current.style.setProperty('--total', this.total)
 
-      this.colors = ['#3550A6', '#DA882F', '#CC8B82', '#AF9F2A', '#CFAB74', '#AFAF5A', '#7A8B8B'];
+      this.colors = ['#3550A6', '#DA882F', '#CC8B82', '#AF9F2A', '#CFAB74', '#AFAF5A', '#7A8B8B', '#AA5582'];
   }
 
   leftRotate(){
@@ -114,7 +114,13 @@ export default class Jumbotron extends Component {
                   rotRight={() => this.leftRotate()}
                   total={this.total}
                   style={this.setStyle(this.projectNum + 1)}
-
+              />
+              <Experience
+                  active={this.projectNum + 2 === this.state.active}
+                  rotLeft={() => this.rightRotate()}
+                  rotRight={() => this.leftRotate()}
+                  total={this.total}
+                  style={this.setStyle(this.projectNum + 2)}
               />
           </div>
       </div>

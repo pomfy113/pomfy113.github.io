@@ -1,3 +1,3 @@
-import { About, Tools} from './Misc.js'
+import { About, Tools, Experience } from './Misc.js'
 
-export { About, Tools }
+export { About, Tools, Experience }
